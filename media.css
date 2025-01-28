@@ -1,0 +1,151 @@
+@media (max-width:1080px){
+    .cards label{
+        margin: 0;
+    }
+    #theme-switch{
+        top: 100px;
+
+    }
+}
+
+ 
+    @media all and (max-width: 960px) {
+        header ul {
+          display: none;
+        }
+        .sidebar-open-btn {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: transparent;
+          color: darkcyan;
+          font-size: 60px;
+        }
+        header ul li button {
+          padding: 0;
+        }
+        header ul li {
+          padding: 0;
+        }
+        .profilna img{
+            width: 400px;
+            height: 400px;
+        }
+      
+        .card-container a{
+            width: 40%;
+        }
+
+      }
+    @media all and (max-width: 755px) {
+      
+        .profilna img{
+            width: 350px;
+            height: 350px;
+        }
+        .tekst p{
+            font-size: 100%;
+        }
+        .card-container a{
+            width: 45%;
+        }
+
+      }
+    @media all and (max-width: 600px) {
+
+        .main-tekst{
+            max-width: 500px;
+        }
+        .main-tekst h3{
+            font-size: 120%;
+        }
+        .main-tekst h1{
+            font-size: 300%;
+        }
+        .main-tekst p{
+            font-size:120%;
+        }
+      
+        .about{
+            flex-direction: column;
+            gap: 20px;
+        }
+        .all-work-width{
+            width: 100%;
+        }
+        .contact-tekst{
+            max-width: 500px;
+        }
+        .contact-tekst h3{
+            font-size: 120%;
+        }
+        .contact-tekst h1{
+            font-size: 300%;
+        }
+        .contact-tekst p{
+            font-size:120%;
+        }
+     
+
+      }
+    @media all and (max-width: 500px) {
+
+        .main-tekst{
+            max-width: 400px;
+        }
+        .logo{
+            font-size: 80%;
+        }
+       
+      
+        .about{
+            flex-direction: column;
+            gap: 20px;
+        }
+      
+        .contact-tekst{
+            max-width: 400px;
+        }
+        .card-container a{
+            width: 50%;
+        }
+        .cards{
+            padding: 25px;
+        }
+      
+     
+
+      }
+      
+    @media all and (max-width: 431px) {
+
+        .main-tekst{
+            max-width: 350px;
+        }
+        .logo{
+            font-size: 80%;
+        }
+       
+      
+        .about{
+            flex-direction: column;
+            gap: 20px;
+        }
+        .work-info h1{
+            margin-top: 150px;
+            font-size: 1.6rem;
+        text-align: center;
+        }
+      
+        .contact-tekst{
+            max-width: 350px;
+        }
+        .card-container a{
+            width: 70%;
+        }
+       
+      
+     
+
+      }
+      

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danel Kolenovic</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="animations.css">
+    <script src="https://kit.fontawesome.com/269dc663ca.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <script defer src="/MyPortfolio/script.js"></script>
+</head>
+<body > 
+
+    <header id="hide-header">
+      <button id="theme-switch">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
+      </button>
+        <div class="logo"><a href="https://github.com/danelkolenovic"><h1 class="bounce">Danel Kolenovic</h1></a></div>
+        <ul id="navMenus">
+          <li><a class="btns" href="#about">About</a></li>
+          <li><a class="btns" href="#work">Work</a></li>
+          <li><a class="btns" href="#contact">Contact</a></li>
+          <li>
+            <a href="" target="_blank"><button>Resume</button></a>
+          </li>
+        </ul>
+
+        <button class="sidebar-open-btn">&#9776;</button>
+        <div class="progress-bar">
+          <div class="progress-bar-inner" style="height: 5px;"></div>
+        </div>
+      </header>
+
+      <div id="myModal" class="modal" style="display: none;">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+
+          <a class="btnsside" href="#about">About</a>
+          <a class="btnsside" href="#work">Work</a>
+          <a class="btnsside" href="#contact">Contact</a>
+          <a class="btnsside modalbtn" href="" target="_blank">Resume</a>
+        </div>
+      </div>
+
+      <div class="main">
+        <video autoplay muted loop id="video-background">
+          <source src="/MyPortfolio/video.mp4" type="video/mp4">
+          
+        </video>
+        <div class="main-tekst">
+        <h3>Hello, my name is</h3>
+        <h1>Danel Kolenovic</h1>
+        <p>I’m a frontend developer and JavaScript engineer, embracing self-love and discipline on my journey to inner peace while creating my own rhythm and flow. I work with my hands to bring ideas to life and make things happen.
+
+          Explore my Work, Experience, About, Contact sections, or reach out to me via email at <mark>danelsr4@gmail.com</mark>.
+        </p>
+      </div>
+    </div>
+
+      <div class="about" id="about">
+        <div class="tekst">
+        <h1>About me</h1>
+        <hr>
+        <p>Hello! I’m Danel, and I have a passion for creating digital experiences that thrive on the internet. My journey into coding began in middle school when I joined an IT class.
+
+          Today, I've expanded my skills by taking live courses at Centar Nit and online courses on Udemy, focusing on HTML, CSS, JavaScript, and soon, React. My current goal is to enhance my frontend development abilities, and I’m also looking forward to diving deeper into backend development soon.
+          
+          I’m passionate about building functional and practical websites—whether it's for small businesses or rich, interactive web pages. With every line of code I write, I aim to contribute to making the web a more beautiful and user-friendly space.</p>
+      </div>
+    
+    <div class="profilna">
+      <img src="/MyPortfolio/me.jpg" width="500px" height="600px ">
+    </div>
+  </div>
+
+  <p id="work"></p>
+  <br />
+  <div class="all-work">
+  <div class="all-work-width">
+  <div class="work-info reveal">
+    <h1>
+      My Projects and Learning
+      <hr />
+    </h1>
+  </div>
+  <div class="card-container-width reveal">
+    <ul class="card-container reveal" style="padding: 0;">
+      <a href="https://github.com/danelkolenovic/Weather-App" target="_blank"
+        ><li id="cardNo1" class="cards ">
+          <div class="card-icons">
+            <i class="fa-brands fa-github"></i>
+          </div>
+          <h2>Weather App</h2>
+          <label
+            >I designed a weather app that provides real-time temperature and wind speed updates, helping you stay informed with essential weather data at a glance.</label
+          >
+          <div class="technologies">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </li></a
+      >
+      <a href="https://github.com/danelkolenovic/Calculator" target="_blank"
+        ><li id="cardNo2" class="cards">
+          <div class="card-icons">
+            <i class="fa-brands fa-github"></i>
+          </div>
+          <h2>Calculator</h2>
+          <label
+            > I designed a simple and user-friendly calculator app that performs basic arithmetic operations, making calculations quick and easy.</label
+          >
+          <div class="technologies">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </li></a
+      >
+      <a class="cardNo3resp" href="https://github.com/danelkolenovic/Tic-Tac-Toe" target="_blank"
+        ><li id="cardNo3" class="cards">
+          <div class="card-icons">
+            <i class="fa-brands fa-github"></i>
+          </div>
+          <h2>Tic Tac Toe</h2>
+          <label
+            >I created a classic Tic Tac Toe game with a clean, interactive design, allowing players to enjoy a fun and engaging experience against friends </label
+          >
+          <div class="technologies">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </li>
+        </a>
+      <a class="cardNo3resp" href="https://github.com/danelkolenovic/To-Do-List" target="_blank"
+        ><li id="cardNo3" class="cards">
+          <div class="card-icons">
+            <i class="fa-brands fa-github"></i>
+          </div>
+          <h2>To-Do List</h2>
+          <label
+            >I built a simple and efficient to-do list app that helps users stay organized by easily adding, managing, and tracking tasks.</label
+          >
+          <div class="technologies">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </li>
+        </a>
+      <a class="cardNo3resp" href="https://github.com/danelkolenovic/Mineral" target="_blank"
+        ><li id="cardNo3" class="cards">
+          <div class="card-icons">
+            <i class="fa-brands fa-github"></i>
+          </div>
+          <h2>Pixel-Perfect Website
+          </h2>
+          <label
+            >I recreated a Figma design into a pixel-perfect website, focusing on accuracy and responsiveness.
+            </label
+          >
+          <div class="technologies">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </li>
+        </a>
+      <a class="cardNo3resp" href="https://github.com/danelkolenovic/GalleryX" target="_blank"
+        ><li id="cardNo3" class="cards">
+          <div class="card-icons">
+            <i class="fa-brands fa-github"></i>
+          </div>
+          <h2>GalleryX
+          </h2>
+          <label
+            >A visually stunning website dedicated to displaying my oil paintings, featuring a curated gallery and insights into each artwork.
+            </label
+          >
+          <div class="technologies">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </li>
+        </a>
+      <a class="cardNo3resp" href="https://github.com/danelkolenovic/MyPortfolio" target="_blank"
+        ><li id="cardNo3" class="cards">
+          <div class="card-icons">
+            <i class="fa-brands fa-github"></i>
+          </div>
+          <h2>This Portfolio!</h2>
+          <label
+            >A showcase of my web development projects, highlighting my skills in frontend design and coding with a clean, user-friendly layout.</label
+          >
+          <div class="technologies">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </li>
+        </a>
+        
+  </div>
+    </ul>
+    <div class="showMoreLess">
+       <a href="https://github.com/danelkolenovic"> <button id="showMLBtn">More...</button></a>
+      </div>
+  </div>
+</div>
+
+<div class="contact" id="contact">
+  
+  <div class="contact-tekst">
+  <h3>Well, that was me!</h3>
+  <h1>Let’s Make Things Happen</h1>
+  <p>"I'm glad you stopped by! If you'd like to discuss a potential collaboration, ask a question, or simply share your thoughts, feel free to reach out. I'd be happy to connect with you."  </p>
+  <a href="mailto:danelsr4@gmail.com">
+    <button class="email-button">Reach Out</button>
+</a>
+</div>
+</div>
+
+<footer>
+  <div class="apps">
+   <a href="https://www.instagram.com/danelkolenovic/"><i class="fa-brands fa-instagram"></i></a> 
+   <a href="https://www.facebook.com/danel.kolenovic"><i class="fa-brands fa-facebook-f"></i></a> 
+   <a href="https://github.com/danelkolenovic"><i class="fa-brands fa-github"></i></a> 
+   <a href="https://www.linkedin.com/in/danel-kolenovic-a00514292/"><i class="fa-brands fa-linkedin"></i></a> 
+  </div>
+  <div class="copy">
+    <p>Designed and Built by Danel Kolenovic.</p>
+    <p>All rights reserved &copy; 2025</p>
+  </div>
+</footer>
+
+
+    
+</body>
+</html>
